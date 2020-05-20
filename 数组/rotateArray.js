@@ -14,7 +14,7 @@ console.log(rotateArray([-1,-100,3,99], 2));
 // 方法二： 原地翻转
 let rotateArray1 = (nums, k) => {
     nums.splice(0,0,...nums.splice(nums.length - k));
-    return nums;
+    return nums; 
 }
 
 console.log(rotateArray1([1,2,3,4,5,6,7], 3));
